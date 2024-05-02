@@ -3,17 +3,6 @@
     padding: 0;
     border: 0;
 }
-.navbar{
-    display: flex;
-    background-color: red;
-}
-.navbar li{
-    display:inline;
-}
-.menu{
-    display: flex;
-    justify-content: flex-end;
-}
 .container{
     display: flex;
     flex-wrap: wrap;

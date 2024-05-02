@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    background-color: #21184e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar li{
+    display:inline;
+}
+.titulo{
+    font-size: 32px;
+}
+.menu{
+
+}
