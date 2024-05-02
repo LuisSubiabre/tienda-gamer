@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar{
+    display: flex;
+    background-color: red;
+}
+.navbar li{
+    display:inline;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.container div{
+    height: 120px;
+    background: blue;
+    flex: 1 1 250px;
+    font-size: 32px;
+    color: white;
+}
