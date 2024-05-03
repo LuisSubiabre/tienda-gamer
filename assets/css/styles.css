@@ -1,24 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
-    border: 0;
 }
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
     gap: 8px;
 }
-.container div{
-    height: 120px;
-    background: blue;
-    flex: 1 1 250px;
+.container > div{
+    display: flex;
+    height: 40vh;
+    flex: 1 1 40vh;
     font-size: 32px;
     color: white;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+#Callisto {
+    background-image: url(../img/Callisto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#GOW {
+    background-image: url(../img/GodOfWar.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#JF {
+    background-image: url(../img/JumpForce.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+#MK {
+    background-image: url(../img/MarioKart.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#PP {
+    background-image: url(../img/Peach.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fit;
+}
+#SM2 {
+    background-image: url(../img/SpiderMan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#SMB {
+    background-image: url(../img/SuperMario.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#MVDK {
+    background-image: url(../img/mario-vs-donkey-kong-nsw.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4c76c9;
+    border-bottom: 1px solid rgb(31, 50, 199);
+    color: white;
+    padding: 1em;
+}
+.navbar li{
+    display:inline;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  .navbar li a:hover {
+    color: yellow;
+  }
+.titulo{
+    font-size: 32px;
+    padding-left: 50px;
+}
+footer{
+    display: flex;
+    flex: 1 1 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1c1833;
+    color: rgb(215, 230, 230);
+}
+footer img{
+    width: 200px;
 }
