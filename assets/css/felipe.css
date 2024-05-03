@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.container > div{
+    display: flex;
+    height: 40vh;
+    flex: 1 1 40vh;
+    font-size: 32px;
+    color: white;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+#Callisto {
+    background-image: url(../img/Callisto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#GOW {
+    background-image: url(../img/GodOfWar.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#JF {
+    background-image: url(../img/JumpForce.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+#MK {
+    background-image: url(../img/MarioKart.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#PP {
+    background-image: url(../img/Peach.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fit;
+}
+#SM2 {
+    background-image: url(../img/SpiderMan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#SMB {
+    background-image: url(../img/SuperMario.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#MVDK {
+    background-image: url(../img/mario-vs-donkey-kong-nsw.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
