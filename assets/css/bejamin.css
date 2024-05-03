@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    flex: 1 1 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1c1833;
+    color: rgb(215, 230, 230);
+}
+footer img{
+    width: 200px;
+}
