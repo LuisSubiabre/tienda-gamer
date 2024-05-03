@@ -1,17 +1,25 @@
 .navbar{
     display: flex;
-    background-color: #21184e;
-    color: white;
-    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #4c76c9;
+    border-bottom: 1px solid rgb(31, 50, 199);
+    color: white;
+    padding: 1em;
 }
 .navbar li{
     display:inline;
 }
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  .navbar li a:hover {
+    color: yellow;
+  }
 .titulo{
     font-size: 32px;
-}
-.menu{
-
+    padding-left: 50px;
 }
